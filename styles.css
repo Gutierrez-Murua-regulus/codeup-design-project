@@ -1,0 +1,247 @@
+body{
+    font-family: abel,sans-serif;
+    background-color:#E6E6E6;
+}
+
+.navbar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    /*margin-right: auto;*/
+    padding: 10px;
+    height: 60px;
+    /*width: 100%;*/
+    max-width: 1100px;
+}
+
+.li a {
+    color: black;
+}
+
+@media only screen and (max-width: 575px) {
+
+    .navbar-brand {
+        position: absolute;
+        top: -28px;
+        right: 160px;
+        /*margin: auto;*/
+    }
+
+    .container h2 {
+        display: flex;
+        position: absolute;
+        top: 75px;
+        font-family: abel, sans-serif;
+    }
+
+    .navbar-nav .links-1-2 {
+        display: flex;
+        position: absolute;
+        top: 115px;
+        right: 14em;
+
+    }
+
+    .navbar-nav .links-3-4 {
+        display: flex;
+        /*justify-content: space-evenly;*/
+        position: absolute;
+        top: 115px;
+        right: 115px;
+
+    }
+
+}
+
+
+    @media only screen and (min-width:576px) {
+
+        .navbar-brand {
+            position: absolute;
+            top: -35px;
+            left: 190px;
+            margin: auto;
+        }
+
+        .container h2 {
+            display: flex;
+            /*flex-basis: auto;*/
+            position: absolute;
+            top: 70px;
+            left: 160px;
+            /*margin-bottom: 65px;*/
+            font-family: abel,sans-serif;
+        }
+
+        .navbar-nav .links-1-2 {
+            display: flex;
+            /*justify-content: space-evenly;*/
+            position: absolute;
+            right: 22em;
+
+        }
+
+        .navbar-nav .links-3-4 {
+            display: flex;
+            /*justify-content: space-evenly;*/
+            position: absolute;
+            right: 5em;
+
+
+        }
+
+}
+
+@media only screen and (min-width:768px) {
+    .navbar-brand {
+        position: absolute;
+        top: -25px;
+        left: -40px;
+        margin: auto;
+    }
+
+    .container h2 {
+        display: flex;
+        /*flex-basis: auto;*/
+        position: absolute;
+        top: 10px;
+        left: 80px;
+        /*margin-bottom: 65px;*/
+        font-family: abel,sans-serif;
+    }
+
+    .navbar-nav .links-1-2 {
+        display: flex;
+        /*justify-content: space-evenly;*/
+        position: absolute;
+        right: 4em;
+
+    }
+
+    .navbar-nav .links-3-4 {
+        display: flex;
+        /*justify-content: space-evenly;*/
+        position: absolute;
+        right: -3em;
+
+
+    }
+
+}
+
+.logo{
+    width: 105px;
+    height: 105px;
+}
+
+li {
+    margin: 5px;
+}
+
+h1,h2,h3,h4{
+    font-family: anton,sans-serif;
+}
+p{
+    font-family: abel,sans-serif;
+}
+.circle {
+    width: 100px;
+    border-radius: 50%;
+    background: #0a53be;
+    line-height: 0;
+    position: relative;
+
+}
+.circle::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+
+}
+.circle-txt{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.shadow-circle{
+    width:105px;
+    height:105px;
+    border: 6px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+
+.circle-1{
+    background: #e6563b;
+    margin: 3px -10px;
+
+
+}
+.circle-2{
+    background: #DEA03D;
+    margin: 3px -10px;
+
+}
+.circle-3{
+    background: #7CB06C;
+    margin: 3px -10px;
+
+}
+.circle-4{
+    background: #00ABA9;
+    margin: 3px -10px;
+}
+
+
+
+
+
+/*@media only screen and (max-width: 575px) {*/
+
+/*    .container {*/
+/*        display: grid;*/
+/*        grid-template-columns: 6fr 6fr;*/
+/*        grid-template-rows: 6fr 6fr;*/
+/*        grid-column-gap: 10px;*/
+/*    }*/
+
+/*    .container-circle-1-2 {*/
+/*        display: grid;*/
+/*        justify-items: flex-end;*/
+/*        grid-row-gap: 10px;*/
+/*    }*/
+
+/*    .container-circle-3-4 {*/
+/*        display: grid;*/
+/*        grid-row-gap: 10px;*/
+/*    }*/
+/*}*/
+
+
+.icon-1 {
+    width: 18px;
+    border-radius: 50%;
+    /*background: #0a53be;*/
+    line-height: 0;
+    position: relative;
+
+}
+.icon-1::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+
+}
+
+.icon-txt{
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.5em;
+    font-weight: bold;
+    color: black;
+}
