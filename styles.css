@@ -10,15 +10,23 @@ body{
     /*margin-right: auto;*/
     padding: 10px;
     height: 60px;
-    /*width: 100%;*/
+    width: 100%;
     max-width: 1100px;
+
+}
+.bg-light {
+
+    width:100% !important;
 }
 
-.li a {
+.top-header{
+    padding-top: 45px;
+}
+ a {
     color: black;
 }
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 576px) {
 
     .navbar-brand {
         position: absolute;
@@ -40,6 +48,7 @@ body{
         top: 115px;
         right: 14em;
 
+
     }
 
     .navbar-nav .links-3-4 {
@@ -48,6 +57,7 @@ body{
         position: absolute;
         top: 115px;
         right: 115px;
+
 
     }
 
@@ -163,8 +173,10 @@ p{
     bottom: 50%;
     width: 100%;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 20px ;
     color: #FFFFFF;
+    font-family: anton, sans-serif;
 }
 .shadow-circle{
     width:105px;
@@ -175,7 +187,7 @@ p{
 
 
 .circle-1{
-    background: #e6563b;
+    background: #EB9D3A;
     margin: 3px -10px;
 
 
@@ -219,29 +231,33 @@ p{
 /*        grid-row-gap: 10px;*/
 /*    }*/
 /*}*/
+hr.line {
 
-
-.icon-1 {
-    width: 18px;
-    border-radius: 50%;
-    /*background: #0a53be;*/
-    line-height: 0;
-    position: relative;
-
+    border: 2px solid #C1C1C1 ;
+    width: 80%;
 }
-.icon-1::after{
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.icon-1{
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    margin: 3px 5px;
+    padding: 0px 7px;
 }
 
 .icon-txt{
-    position: absolute;
-    bottom: 50%;
-    width: 100%;
-    text-align: center;
-    font-size: 0.5em;
+    font-family: anton, sans-serif;
     font-weight: bold;
     color: black;
+}
+.img-border{
+    border: 5px solid #E6E6E6;
+}
+
+i{
+    color: #0d6efd;
 }
